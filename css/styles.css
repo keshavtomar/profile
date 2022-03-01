@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  margin-right: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-class {
+  background-color: #EAF6F6;
+  padding: 50px 0 0 0;
+}
+
+.sub-heading{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: relative;
+  left: 25%;
+}
+
+.bottom-cloud {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 25%;
+}
+
+.mountain {
+  position: relative;
+  top: 4px;
+  width: 55%;
+}
+
+.my-photo {
+  width: 30%;
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /* in css 100% is 16 px, if we want a 80 px font we will need 500% font size */
+  margin: 0;
+  padding: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  margin: 0;
+  line-height: 2;
+}
+
+.profile{
+  width: 60%;
+  margin: 50px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skills{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.chillies {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cricket {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr{
+    height: 0;
+    width: 10%;
+    border-width: 7px;
+    border-style: dotted none none;
+    border-color: grey;
+}
+
+.contact-me{
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 50px 0;
+}
+
+.footer-link{
+   text-decoration: none;
+   margin: 10px 30px;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+
+.copyright{
+  color: #EAF6F6;
+  position: relative;
+  top: 30px;
+}
+
+
+/*
+button */
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: -moz-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: -ms-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: -o-linear-gradient(top, #66BFBF, #2980b9);
+  background-image: linear-gradient(to bottom, #66BFBF, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #575757;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
